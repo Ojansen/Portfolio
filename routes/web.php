@@ -11,6 +11,11 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+// $router->get('/', function () use ($router) {
+//     return view('home.blade.php');
+// });
+// $router->get('/', 'PortfolioController@home');
+// $router->get('/projecten', 'PortfolioController@projects');
+$router->get('/', function () use ($router) { return view('home'); });
+$router->get('/projecten', 'PortfolioController@Project');
+$router->get('/contact', function () use ($router) { return view('contact'); });
