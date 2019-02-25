@@ -30,11 +30,11 @@
 		    	</div>
 			</li>
 			<li><div class="divider"></div></li>
-			<li><a href="/" class="active"><i class="material-icons">home</i>Home</a></li>
+			<li><a href="/" class="active"><i class="material-icons">person</i>Profile</a></li>
 			<li><a href="/projecten"><i class="material-icons">dashboard</i>Projecten</a></li>
-			<li><a href="/contact"><i class="material-icons">account_circle</i>Contact</a></li>
-			<li><a href="projecten"><i class="material-icons">chat</i>Blog</a></li>
-		    <li><a href="projecten"><i class="material-icons">work</i>CV</a></li>
+			<li><a href="/blog"><i class="material-icons">chat</i>Blog</a></li>
+			<li><a href="projecten"><i class="material-icons">work</i>CV</a></li>
+		    <li><a href="projecten"><i class="material-icons">equalizer</i>Skills</a></li>
 		</ul>
 		<nav class="hide-on-large-only blue lighten-3">
 			<div class="nav-wrapper">
@@ -43,7 +43,7 @@
 			    </ul>
 			</div>
 		</nav>
-		<div class="offset-l2 col">
+		<div class="offset-l2 col s12 m12 l10">
 			@yield('content')
 		</div>
 	</div>

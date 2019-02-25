@@ -17,6 +17,7 @@ class Projects extends Migration
             $table->increments('id');
 			$table->string('title', 200);
 			$table->string('href', 200);
+            $table->string('technologies', 200);
             $table->text('description');
         });
     }

@@ -18,4 +18,5 @@
 // $router->get('/projecten', 'PortfolioController@projects');
 $router->get('/', function () use ($router) { return view('home'); });
 $router->get('/projecten', 'PortfolioController@Project');
+$router->get('/blog', 'PortfolioController@Blog');
 $router->get('/contact', function () use ($router) { return view('contact'); });
