@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,12 +10,9 @@
 |
 */
 
-// $router->get('/', function () use ($router) {
-//     return view('home.blade.php');
-// });
-// $router->get('/', 'PortfolioController@home');
-// $router->get('/projecten', 'PortfolioController@projects');
 $router->get('/', function () use ($router) { return view('home'); });
 $router->get('/projecten', 'PortfolioController@Project');
-$router->get('/blog', 'PortfolioController@Blog');
+$router->get('/blog', ['as' => 'blog', 'uses' => 'PortfolioController@Blog']);
+$router->post('/blog/like', 'PortfolioController@Like');
 $router->get('/contact', function () use ($router) { return view('contact'); });
+$router->get('/skills', function () use ($router) { return view('skills'); });

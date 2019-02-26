@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 html body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Muli', sans-serif;
-	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
 	/* background-image: url('https://images.pexels.com/photos/257856/pexels-photo-257856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-size: cover; */
 }
@@ -10,10 +13,20 @@ html body {
 header, main, footer {
  	padding-left: 300px;
 }
+h1,h2 {
+	font-weight: 700;
+}
 .carousel .carousel-slider{
 	margin-left: -15px;
 	width: 100% !important;
 }
+.sidenav .user-view {
+	margin:0px;
+}
+.sidenav li > a {
+	font-weight: 500;
+}
+
 @media only screen and (max-width : 992px) {
  	header, main, footer {
 		padding-left: 0;

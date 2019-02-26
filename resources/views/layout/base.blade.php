@@ -8,35 +8,36 @@
       	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- Compiled and minified CSS -->
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-		<link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
 
 		<!--Let browser know website is optimized for mobile-->
       	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}">
-
+		@yield('js')
 	</head>
 	<body>
 	<div class="row">
-		<ul class="col l2 m6 s12 sidenav sidenav-fixed blue lighten-3 black-text" id="slide-out" style="padding:0">
+		<ul class="col l2 m6 s12 sidenav sidenav-fixed light-blue lighten-2 black-text" id="slide-out" style="padding:0">
 		    <li>
-				<div class="user-view" style="height:120px;">
+				<div class="user-view" style="height:200px;">
 		        	<div class="background">
-				  		<img src="https://66.media.tumblr.com/d107d95ea184b0f72ac9f4b4f3dff131/tumblr_n74schTsHd1snc5kxo1_540.gif" style="width:70%;">
+				  		<img src="https://66.media.tumblr.com/d107d95ea184b0f72ac9f4b4f3dff131/tumblr_n74schTsHd1snc5kxo1_540.gif" style="width:100%;">
 		        	</div>
 					<!-- <a href="#user"><img class="circle" src="https://bxssl.com/img/me5.jpg" width="100px"></a> -->
 					<span class="sidenav-close hide-on-large-only right"><i class="material-icons">close</i></span>
-					<h5 class="black-text">Obe Jansen</h5>
-		        	<!-- <h4 class="black-text">Applicatie - Mediaontwikkeling</h4> -->
+					<div style="height:150px" class="valign-wrapper center-align">
+						<h5 class="black-text">Obe Jansen</h5>
+		        		<!-- <p class="black-text name">Applicatie - Mediaontwikkelaar</p> -->
+					</div>
 		    	</div>
 			</li>
-			<li><div class="divider"></div></li>
+			<li><div class="divider" style="margin:0px;"></div></li>
 			<li><a href="/" class="active"><i class="material-icons">person</i>Profile</a></li>
 			<li><a href="/projecten"><i class="material-icons">dashboard</i>Projecten</a></li>
 			<li><a href="/blog"><i class="material-icons">chat</i>Blog</a></li>
 			<li><a href="projecten"><i class="material-icons">work</i>CV</a></li>
-		    <li><a href="projecten"><i class="material-icons">equalizer</i>Skills</a></li>
+		    <li><a href="/skills"><i class="material-icons">equalizer</i>Skills</a></li>
 		</ul>
-		<nav class="hide-on-large-only blue lighten-3">
+		<nav class="hide-on-large-only light-blue lighten-2">
 			<div class="nav-wrapper">
 				<ul id="nav-mobile" class="left">
 					<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
