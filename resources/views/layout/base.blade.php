@@ -11,6 +11,10 @@
 
 		<!--Let browser know website is optimized for mobile-->
       	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<!-- beetje jammer weer -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 		<link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}">
 		@yield('js')
 	</head>
@@ -34,8 +38,17 @@
 			<li><a href="/" class="active"><i class="material-icons">person</i>Profile</a></li>
 			<li><a href="/projecten"><i class="material-icons">dashboard</i>Projecten</a></li>
 			<li><a href="/blog"><i class="material-icons">chat</i>Blog</a></li>
-			<li><a href="projecten"><i class="material-icons">work</i>CV</a></li>
+			<li><a href="/cv"><i class="material-icons">work</i>CV</a></li>
 		    <li><a href="/skills"><i class="material-icons">equalizer</i>Skills</a></li>
+
+
+			<div class="sidenav-footer center-align text-black">
+				<a href="https://www.instagram.com/ikbenobe/"><i class="fab fa-3x fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/obe-jansen-a14714164"><i class="fab fa-3x fa-linkedin"></i></a>
+				<a href="https://github.com/Ojansen"><i class="fab fa-3x fa-github-square"></i></a>
+				<a href="https://bxssl.tumblr.com/"><i class="fab fa-3x fa-tumblr-square"></i></a>
+			</div>
+
 		</ul>
 		<nav class="hide-on-large-only light-blue lighten-2">
 			<div class="nav-wrapper">
