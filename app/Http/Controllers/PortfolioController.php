@@ -18,10 +18,7 @@ class PortfolioController extends Controller
     {
         $projecten = Project::all();
         $client = new \GuzzleHttp\Client();
-        $res = $client->request('GET', 'https://api.github.com/users/Ojansen/repos', [
-            'auth' => [env('GITHUB_USERNAME'), env('GITHUB_PASSWORD')],
-            // 'Accept' => 'application/vnd.github.nightshade-preview+json'
-        ]);
+        $res = $client->request('GET', 'https://api.github.com/users/Ojansen/repos');
         $repos = json_decode($res->getBody());
 		return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
     }

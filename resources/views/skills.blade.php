@@ -43,9 +43,7 @@
 
 <div class="container" >
 	<div class="card-panel">
-		<div  id="google_chart">
-
-		</div>
+		<div  id="google_chart"></div>
 	</div>
 </div>
 
