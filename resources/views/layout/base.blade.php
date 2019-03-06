@@ -32,17 +32,19 @@
 					<!-- <a href="#user"><img class="circle" src="https://bxssl.com/img/me5.jpg" width="100px"></a> -->
 					<span class="sidenav-close hide-on-large-only right"><i class="material-icons">close</i></span>
 					<div style="height:150px" class="valign-wrapper center-align">
-						<h5 class="black-text">Obe Jansen</h5>
+						<a href="/" class="active">
+							<h5 class="black-text"><u>Obe Jansen</u></h5>
+						</a>
 		        		<!-- <p class="black-text name">Applicatie - Mediaontwikkelaar</p> -->
 					</div>
 		    	</div>
 			</li>
 			<li><div class="divider" style="margin:0px;"></div></li>
-			<li><a href="/" class="active"><i class="material-icons">person</i>Profile</a></li>
 			<li><a href="/projecten"><i class="material-icons">dashboard</i>Projecten</a></li>
 			<li><a href="/blog"><i class="material-icons">chat</i>Blog</a></li>
 			<li><a href="/cv"><i class="material-icons">work</i>CV</a></li>
-		    <li><a href="/skills"><i class="material-icons">equalizer</i>Skills</a></li>
+			<li><a href="/skills"><i class="material-icons">equalizer</i>Skills</a></li>
+			<li style="background-color: #cccccc"><a class="disabled"><i class="material-icons">lightbulb_outline</i>Python coming soon</a></li>
 
 
 			<div class="sidenav-footer center-align text-black">

@@ -4,15 +4,15 @@
 
 <div class="container" style="margin-top:30px;">
 	<div class="row">
-		<div class="col s12 m12 l12">
+		<div class="col s12 m12 l12  center-align">
 			<div class="col m12 l2 s12">
 				<img width="200px" src="https://media.licdn.com/dms/image/C4D03AQE66T-nY8hVHA/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=oP9EQDlYuPy_sTa01DftYYGIhMotykJkkuepeEPxQHs" alt="" class="circle responsive-img">
 			</div>
-			<div class="col m12 l6 s12 center-align">
+			<div class="col m12 l6 s12">
 				<h2>Obe Jansen</h2>
 				<p>Applicatie - Media ontwikkelaar</p>
 			</div>
-			<div class="col m12 l4 s12">
+			<div class="col m12 l4 s12 left-align">
 				<p>obe@ailife.nl</p>
 			</div>
 		</div>
