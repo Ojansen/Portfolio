@@ -19,7 +19,16 @@ class PortfolioController extends Controller
         $projecten = Project::all();
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', 'https://api.github.com/users/Ojansen/repos');
+
         $repos = json_decode($res->getBody());
+        $downloads = [];
+        foreach ($repos as $repo) {
+            array_push($downloads, $repo->name);
+
+            $repo_download = $client->request('GET', 'https://api.github.com/repos/Ojansen/'.$repo->name.'/commits');
+            $repo = collect($repo);
+            $repo = $repo->merge(collect(json_decode($repo_download->getBody()))->first());
+        }
 		return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
     }
 
@@ -28,6 +37,7 @@ class PortfolioController extends Controller
         $posts = Post::all();
         return view('blog', ['posts' => $posts]);
     }
+
 	public function Like(Request $request)
 	{
 		$post = Post::find($request->input('post'));

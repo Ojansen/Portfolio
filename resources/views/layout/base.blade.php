@@ -2,6 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="theme-color" content="#db5945"/>
+		<meta name="msapplication-navbutton-color" content="#db5945"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="#db5945"/>
+
+		<link rel="icon" type="image/png" href="/favicon.ico">
 
 		<title>Obe Jansen</title>
 		<!--Import Google Icon Font-->
@@ -40,11 +46,11 @@
 		    	</div>
 			</li>
 			<li><div class="divider" style="margin:0px;"></div></li>
-			<li><a href="/projecten"><i class="material-icons">dashboard</i>Projecten</a></li>
-			<li><a href="/blog"><i class="material-icons">chat</i>Blog</a></li>
-			<li><a href="/cv"><i class="material-icons">work</i>CV</a></li>
-			<li><a href="/skills"><i class="material-icons">equalizer</i>Skills</a></li>
-			<li style="background-color: #cccccc"><a class="disabled"><i class="material-icons">lightbulb_outline</i>Python coming soon</a></li>
+			<li><a href="/projecten"><i class="fas fa-2x fa-cubes"></i>Projecten</a></li>
+			<li><a href="/blog"><i class="fas fa-2x fa-blog"></i>Blog</a></li>
+			<li><a href="/cv"><i class="fas fa-2x fa-briefcase"></i>CV</a></li>
+			<li><a href="/skills"><i class="fas fa-2x fa-chart-bar"></i>Skills</a></li>
+			<li><a href="/notebooks"><i class="fab fa-2x fa-python"></i>Python</a></li>
 
 
 			<div class="sidenav-footer center-align text-black">
@@ -62,7 +68,7 @@
 			    </ul>
 			</div>
 		</nav>
-		<div class="offset-l2 col s12 m12 l10">
+		<div class="offset-l2 col s12 m12 l10" style="padding: 0px;">
 			@yield('content')
 		</div>
 	</div>

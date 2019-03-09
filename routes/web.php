@@ -17,3 +17,4 @@ $router->post('/blog/like', 'PortfolioController@Like');
 $router->get('/contact', function () use ($router) { return view('contact'); });
 $router->get('/skills', function () use ($router) { return view('skills'); });
 $router->get('/cv', function () use ($router) { return view('cv'); });
+$router->get('/notebooks', function () use ($router) { return view('notebook'); });

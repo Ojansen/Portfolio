@@ -1,8 +1,6 @@
 @extends('layout.base')
 
 @section('content')
-{{-- <div class="section hide-on-med-and-up"> --}}
-{{-- </div> --}}
 <div class="offset-l1 col s12 m9 l9">
 		<h1  class="center-align light-blue-text">Online projecten</h1>
 	<div class="divider"></div>
