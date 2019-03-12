@@ -21,15 +21,12 @@ class PortfolioController extends Controller
         $res = $client->request('GET', 'https://api.github.com/users/Ojansen/repos');
 
         $repos = json_decode($res->getBody());
-        $downloads = [];
-        foreach ($repos as $repo) {
-            array_push($downloads, $repo->name);
 
+         foreach ($repos as &$repo) {
             $repo_download = $client->request('GET', 'https://api.github.com/repos/Ojansen/'.$repo->name.'/commits');
-            $repo = collect($repo);
-            $repo = $repo->merge(collect(json_decode($repo_download->getBody()))->first());
+     	    $repo['commits'] = json_decode($repo_download->getBody())
         }
-		return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
+	return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
     }
 
     public function Blog()
