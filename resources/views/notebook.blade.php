@@ -1,10 +1,10 @@
 @extends('layout.base')
 
 @php
-$notebooks = [];
-foreach (glob("../resources/views/notebook/*.html") as $filename) {
-    array_push($notebooks, $filename);
-}
+    $notebooks = [];
+    foreach (glob("../resources/views/notebook/*.html") as $filename) {
+        array_push($notebooks, $filename);
+    }
 @endphp
 
 @section('content')

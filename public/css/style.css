@@ -11,7 +11,7 @@ html, body {
 }
 
 header, main, footer {
- 	padding-left: 300px;
+	padding-left: 300px;
 }
 h1,h2 {
 	font-weight: 700;
@@ -46,10 +46,13 @@ h1,h2 {
 #home {
 	height: 800px;
 }
+.card-action {
+	display: inline-flex;
+}
 @media only screen and (max-width : 992px) {
- 	header, main, footer {
+	header, main, footer {
 		padding-left: 0;
-  	}
+	}
 	#home {
 		height: 400px;
 	}

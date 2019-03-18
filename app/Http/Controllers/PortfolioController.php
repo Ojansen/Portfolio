@@ -22,11 +22,12 @@ class PortfolioController extends Controller
 
         $repos = json_decode($res->getBody());
 
-         foreach ($repos as &$repo) {
+        foreach ($repos as &$repo) {
             $repo_download = $client->request('GET', 'https://api.github.com/repos/Ojansen/'.$repo->name.'/commits');
-     	    $repo['commits'] = json_decode($repo_download->getBody())
+            $repo->commits = json_decode($repo_download->getBody());
         }
-	return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
+
+        return view('projects', ['projecten' => $projecten, 'repos' => $repos]);
     }
 
     public function Blog()
@@ -35,11 +36,11 @@ class PortfolioController extends Controller
         return view('blog', ['posts' => $posts]);
     }
 
-	public function Like(Request $request)
-	{
-		$post = Post::find($request->input('post'));
-		$post->likes = $post->likes + 1;
-		$post->save();
-		return redirect()->route('blog');
-	}
+    public function Like(Request $request)
+    {
+        $post = Post::find($request->input('post'));
+        $post->likes = $post->likes + 1;
+        $post->save();
+        return redirect()->route('blog');
+    }
 }
