@@ -39,7 +39,7 @@
 					<span class="sidenav-close hide-on-large-only right"><i class="material-icons">close</i></span>
 					<div style="height:150px" class="valign-wrapper center-align">
 						<a href="/" class="active">
-							<h5 class="black-text"><u>Obe Jansen</u></h5>
+							<h5 class="black-text"><u style="font-size:30px;">Obe Jansen</u></h5>
 						</a>
 		        		<!-- <p class="black-text name">Applicatie - Mediaontwikkelaar</p> -->
 					</div>
@@ -54,10 +54,10 @@
 
 
 			<div class="sidenav-footer center-align text-black">
-				<a href="https://www.instagram.com/ikbenobe/"><i class="fab fa-3x fa-instagram"></i></a>
-				<a href="https://www.linkedin.com/in/obe-jansen-a14714164"><i class="fab fa-3x fa-linkedin"></i></a>
-				<a href="https://github.com/Ojansen"><i class="fab fa-3x fa-github-square"></i></a>
-				<a href="https://bxssl.tumblr.com/"><i class="fab fa-3x fa-tumblr-square"></i></a>
+				<a href="https://www.instagram.com/ikbenobe/"><i class="fab fa-2x fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/obe-jansen-a14714164"><i class="fab fa-2x fa-linkedin"></i></a>
+				<a href="https://github.com/Ojansen"><i class="fab fa-2x fa-github-square"></i></a>
+				<a href="https://bxssl.tumblr.com/"><i class="fab fa-2x fa-tumblr-square"></i></a>
 			</div>
 
 		</ul>
