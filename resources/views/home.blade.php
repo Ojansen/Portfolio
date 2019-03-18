@@ -8,7 +8,12 @@ body {
 	background-color: #4fc3f7;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	/* background-size: cover; */
+	background-size: 13%;
+}
+@media only screen and (max-width: 998px) {
+  body {
+    background-size: 23%;
+  }
 }
 </style>
 @endsection
