@@ -33,13 +33,13 @@
 		<li>
 			<div class="user-view" style="height:200px;">
 				<div class="background">
-					<img src="https://66.media.tumblr.com/d107d95ea184b0f72ac9f4b4f3dff131/tumblr_n74schTsHd1snc5kxo1_540.gif" style="width:100%;">
+					{{--<img src="../img/logo_icon_bw_slogan.png" style="width:90%;">--}}
 				</div>
-				<!-- <a href="#user"><img class="circle" src="https://bxssl.com/img/me5.jpg" width="100px"></a> -->
+				<img src="../img/site_logo_white.png" style="width:90%;">
 				<span class="sidenav-close hide-on-large-only right"><i class="material-icons">close</i></span>
-				<div style="height:150px" class="valign-wrapper center-align">
+				<div class="valign-wrapper center-align">
 					<a href="/" class="active">
-						<h5 class="black-text"><u style="font-size:30px;">Obe Jansen</u></h5>
+						<h5 class="white-text" style="margin: 0;"><u style="font-size:30px;">Obe Jansen</u></h5>
 					</a>
 					<!-- <p class="black-text name">Applicatie - Mediaontwikkelaar</p> -->
 				</div>
