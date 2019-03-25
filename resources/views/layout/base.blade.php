@@ -7,7 +7,8 @@
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<meta name="apple-mobile-web-app-status-bar-style" content="#db5945"/>
 
-	<link rel="icon" type="image/png" href="/favicon.ico">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 	<title>Obe Jansen</title>
 	<!--Import Google Icon Font-->
