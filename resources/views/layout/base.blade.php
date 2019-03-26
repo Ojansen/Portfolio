@@ -32,26 +32,17 @@
 <div class="row">
 	<ul class="col l2 m6 s12 sidenav sidenav-fixed light-blue lighten-2 black-text" id="slide-out" style="padding:0">
 		<li>
-			<div class="user-view" style="height:200px;">
-				<div class="background">
-					{{--<img src="../img/logo_icon_bw_slogan.png" style="width:90%;">--}}
-				</div>
-				<img src="../img/site_logo_white.png" style="width:90%;">
-				<span class="sidenav-close hide-on-large-only right"><i class="material-icons">close</i></span>
-				<div class="valign-wrapper center-align">
-					<a href="/" class="active">
-						<h5 class="white-text" style="margin: 0;"><u style="font-size:30px;">Obe Jansen</u></h5>
-					</a>
-					<!-- <p class="black-text name">Applicatie - Mediaontwikkelaar</p> -->
-				</div>
+			<div class="user-view">
+                <a href="/"><img src="../img/site_logo_white.png" style="width:90%;"></a>
+				<span class="sidenav-close hide-on-large-only right"><i class="white-text far fa-1x fa-times-circle"></i></span>
 			</div>
 		</li>
 		<li><div class="divider" style="margin:0px;"></div></li>
-		<li><a href="/projecten"><i class="fas fa-2x fa-cubes"></i>Projecten</a></li>
-		<li><a href="/blog"><i class="fas fa-2x fa-blog"></i>Blog</a></li>
-		<li><a href="/cv"><i class="fas fa-2x fa-briefcase"></i>CV</a></li>
-		<li><a href="/skills"><i class="fas fa-2x fa-chart-bar"></i>Skills</a></li>
-		<li><a href="/notebooks"><i class="fab fa-2x fa-python"></i>Python</a></li>
+		<li><a href="/projecten"><i class="fas fa-1x fa-cubes"></i>Projecten</a></li>
+		<li><a href="/blog"><i class="fas fa-1x fa-comments"></i>Blog</a></li>
+		<li><a href="/cv"><i class="fas fa-1x fa-briefcase"></i>CV</a></li>
+		<li><a href="/skills"><i class="fas fa-1x fa-chart-bar"></i>Skills</a></li>
+		<li><a href="/notebooks"><i class="fab fa-1x fa-python"></i>Python</a></li>
 
 
 		<div class="sidenav-footer center-align text-black">
@@ -65,7 +56,7 @@
 	<nav class="hide-on-large-only light-blue lighten-2">
 		<div class="nav-wrapper">
 			<ul id="nav-mobile" class="left">
-				<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-hamburger"></i></a>
 			</ul>
 		</div>
 	</nav>

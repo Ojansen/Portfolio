@@ -4,3 +4,7 @@ html, body {
 h5 {
     font-size: 17px;
 }
+
+.sidenav > li > a:hover {
+    text-decoration: none;
+}

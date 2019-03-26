@@ -22,9 +22,19 @@ h1,h2 {
 }
 .sidenav .user-view {
 	margin:0px;
+	padding: 10px;
+}
+.sidenav li {
+	line-height: 0px;
 }
 .sidenav li > a {
 	font-weight: 500;
+	color: white;
+	font-size: 20px;
+}
+.sidenav li > a > i {
+	color: #FFFFFF;
+	font-size: 25px;
 }
 .sidenav-footer {
 	bottom: 0;
@@ -33,21 +43,20 @@ h1,h2 {
 	/* background-color: transparant; */
 	width: 100%;
 }
-.sidenav-footer > a {
-	color: rgba(0, 0, 0, 0.54);
+.sidenav-footer > a > i {
+	color: rgba(255, 255, 255, 0.84);
 	transition: 0.2s ease;
-
 	margin: 0px 10px;
 }
 .sidenav-footer > a:hover {
-	color: rgba(0, 0, 0, 0.87);
+	color: rgba(255, 255, 25, 0.30);
 	transition: 0.2s ease;
 }
 #home {
 	height: 800px;
 }
-.card-action {
-	display: inline-flex;
+.light-blue.lighten-2 {
+	background-color: #1FACED !important;
 }
 @media only screen and (max-width : 992px) {
 	header, main, footer {

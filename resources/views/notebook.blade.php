@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('content')
+
 @php
     $notebooks = [];
     foreach (glob("../resources/views/notebook/*.html") as $filename) {
@@ -7,13 +9,12 @@
     }
 @endphp
 
-@section('content')
-    <div class="show-on-small">
-        This page is not optimized for mobile, please visit it on a desktop device.
-    </div>
-    <div class="col s12 m10 l10">
+    <div class="col s12 m10 l10 ">
         <div class="section scrollspy" id="repos">
             <h1 class="center-align light-blue-text">Jupyter Notebook</h1>
+            <h4 class="show-on-small hide-on-med-and-up center-align">
+                This page is not optimized for mobile, please visit it on a desktop device.
+            </h4>
             @foreach($notebooks as $page)
                 <div id="{{$page}}">
                     @php include($page) @endphp
