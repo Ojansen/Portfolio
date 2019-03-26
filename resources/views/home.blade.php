@@ -11,14 +11,14 @@
 			background-size: 13%;
 			color: white;
 		}
-		img {
+		#logo {
 			width: 25%;
 		}
 		@media only screen and (max-width: 998px) {
 			body {
 				background-size: 23%;
 			}
-			img {
+			#logo {
 				margin-top: 170px;
 				width: 50%;
 			}
@@ -28,9 +28,9 @@
 @section('content')
 	<div class="valign-wrapper" id="home">
 		<div class="center-align" style="width:100%;">
-			<img src="../img/rot-logo-2.gif">
-			<h2>Hello, my name is Obe Jansen</h2>
-			<h5>A programmer from the Netherlands.</h5>
+			<img id="logo" src="../img/rot-logo-2.gif">
+			<h2>Obe Jansen</h2>
+			<h4>A programmer from the Netherlands.</h4>
 		</div>
 	</div>
 @endsection

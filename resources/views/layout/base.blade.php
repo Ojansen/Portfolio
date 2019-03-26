@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="theme-color" content="#db5945"/>
-	<meta name="msapplication-navbutton-color" content="#db5945"/>
+	<meta name="theme-color" content="#1FACED"/>
+	<meta name="msapplication-navbutton-color" content="#1FACED"/>
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-status-bar-style" content="#db5945"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1FACED"/>
 
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
